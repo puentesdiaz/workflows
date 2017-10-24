@@ -10,8 +10,8 @@ hints:
   dockerPull: insilicodb/kallisto
 
 inputs:
-  transcripts: File[]
-  reads: File[]
+  transcripciones: File[]
+  lecturas: File[]
 
 steps:
   indexing:
