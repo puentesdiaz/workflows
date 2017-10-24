@@ -29,7 +29,7 @@ steps:
       - quantification
 
 outputs:
-  quants:
+  resultados:
     type: File
     outputSource: quantifying/quantification
 
