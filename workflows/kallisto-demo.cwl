@@ -17,14 +17,14 @@ steps:
   indexing:
     run: ../tools/kallisto-index.cwl
     in:
-      fasta-files: transcripts
+      fasta-files: transcripciones
     out:
      - index
   quantifying:
     run: ../tools/kallisto-quant.cwl
     in:
       index: indexing/index
-      fastqs: reads
+      fastqs: lecturas
     out:
       - quantification
 
